@@ -1,0 +1,27 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #172052;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #8d79e0;
+}
+.checkout-button {
+    border: solid;
+    border-color: rgba(31, 240, 87, 0.281);
+    background: rgb(119, 31, 9);
+    padding: 0.7em;
+    border-radius: 1.250em;
+    font-size: 1.250em;
+    color: rgb(143, 22, 131);
+    cursor: pointer;
+    width: 100%;
+  }
