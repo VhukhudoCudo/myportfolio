@@ -13,7 +13,7 @@ let lives = word.length;
 
 while (remainingLetters > 0 && lives > 0) {
     alert(answerArray.join(" "));
-    guess = (prompt("Guess a single letter or click 'cancle' to end the game." + lives + "left"));
+    guess = (prompt("Guess a single letter or click 'cancel' to end the game." + lives + "left"));
     if (guess === null) {
         alert("You quit the game. Please try next time again.");
         break;
@@ -40,7 +40,7 @@ while (remainingLetters > 0 && lives > 0) {
     }
 }
 if (remainingLetters === 0); {
-   alert("Congradulations!"); 
+   alert("Congratulations!"); 
 }
 if (lives ===  0) {
    alert("You ran out of lives!")
