@@ -45,4 +45,4 @@ if (remainingLetters === 0); {
 if (lives ===  0) {
    alert("You ran out of lives!")
 }
-alert("The answer was ${word}")
+alert('The answer was ${word}')
